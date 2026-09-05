@@ -1474,7 +1474,23 @@ function Contact() {
           }, void 0, true)]
         }, void 0, true)]
       }, void 0, true)
-    }, void 0, false), /*#__PURE__*/_jsxDEV(Toast, {
+    }, void 0, false), 
+        /* Developed By Section */
+        /*#__PURE__*/_jsxDEV("div", { className: "mt-32 mb-16 text-center gpu-accel w-full", children: [
+          /*#__PURE__*/_jsxDEV("div", { className: "inline-block mb-12", children: [
+            /*#__PURE__*/_jsxDEV("h3", { className: "text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-teal-200", children: "Developed By" }, void 0, false),
+            /*#__PURE__*/_jsxDEV("div", { className: "h-1 w-24 bg-gradient-to-r from-emerald-500 to-teal-500 mx-auto mt-4 rounded-full" }, void 0, false)
+          ]}, void 0, true),
+          /*#__PURE__*/_jsxDEV("div", { className: "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-7xl mx-auto px-4", children: 
+            [ 'Praddyumn Kumthekar', 'Vaibhav Chalakh', 'Aryan Lengure', 'Aarush Rathod', 'Parth Ambartani' ].map((name, i) => 
+              /*#__PURE__*/_jsxDEV("div", { className: "team-card gpu-accel", children: [
+                /*#__PURE__*/_jsxDEV("div", { className: "team-avatar", children: name.split(' ').map(n => n[0]).join('') }, void 0, false),
+                /*#__PURE__*/_jsxDEV("h4", { className: "team-name", children: name }, void 0, false)
+              ]}, i, true)
+            )
+          }, void 0, false)
+        ]}, void 0, true)
+, /*#__PURE__*/_jsxDEV(Toast, {
       message: toast.message,
       detail: toast.detail,
       isVisible: toast.show,
