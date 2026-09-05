@@ -488,3 +488,11 @@
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 }
 body.modal-open { overflow: hidden !important; touch-action: none; }
+
+/* Apply this to the <img> tag or its direct container */
+.my-logo-class {
+  height: auto;          /* Crucial: lets the height scale with the width */
+  max-width: 100%;       /* Prevents the logo from exceeding its container */
+  max-height: 60px;      /* Sets a professional upper limit for height in a header */
+  object-fit: contain;   /* Ensures the logo is fully visible and centered within its block */
+}
