@@ -3425,83 +3425,24 @@ function About() {
             }, void 0, true)
           ]
         }, void 0, false),
-        
-        /*#__PURE__*/_jsxDEV("section", {
-          id: "canopy-projection",
-          className: "mt-24",
-          children: [
-            /*#__PURE__*/_jsxDEV("h2", { className: "text-3xl md:text-4xl font-serif font-bold text-cream-50 mb-6 tracking-tight", children: "Canopy Projection" }, void 0, false),
             /*#__PURE__*/_jsxDEV("div", {
-              className: "grid grid-cols-1 md:grid-cols-2 gap-12 items-center",
+              className: "glass-card p-6 md:p-8 rounded-3xl border border-white/10 hover:border-earth-500/40 hover:bg-forest-900/40 transition-all duration-300 group",
               children: [
-                /*#__PURE__*/_jsxDEV("div", {
-                  children: [
-                    /*#__PURE__*/_jsxDEV("p", { className: "text-cream-100/80 text-lg mb-4 leading-relaxed", children: "Canopy Projection is a forward-looking visualization tool. It models the future growth and spread of the mature tree canopy across planting sites for strategic environmental planning." }, void 0, false),
-                    /*#__PURE__*/_jsxDEV("p", { className: "text-cream-100/80 text-lg mb-4 leading-relaxed", children: "This data is used to calculate optimized tree density and predict future shade mapping. This is crucial for temperature regulation and urban heat island mitigation." }, void 0, false),
-                    /*#__PURE__*/_jsxDEV("p", { className: "text-cream-100/80 text-lg mb-8 leading-relaxed", children: "Furthermore, it helps in analyzing the total carbon sequestration potential per unit area, maximizing the environmental benefits of your project." }, void 0, false),
-                    /*#__PURE__*/_jsxDEV("div", {
-                      className: "glass-card p-6 rounded-2xl border border-white/10 bg-forest-900/40",
-                      children: [
-                        /*#__PURE__*/_jsxDEV("h3", { className: "text-xl font-bold text-cream-50 mb-4", children: "Key Performance Indicators" }, void 0, false),
-                        /*#__PURE__*/_jsxDEV("ul", {
-                          className: "space-y-3 text-cream-100/90",
-                          children: [
-                            /*#__PURE__*/_jsxDEV("li", { className: "flex justify-between border-b border-white/10 pb-2", children: [ /*#__PURE__*/_jsxDEV("span", { children: "Average Canopy Spread (m\u00B2)" }, void 0, false), /*#__PURE__*/_jsxDEV("strong", { children: "25m\u00B2" }, void 0, false) ] }, void 0, true),
-                            /*#__PURE__*/_jsxDEV("li", { className: "flex justify-between border-b border-white/10 pb-2", children: [ /*#__PURE__*/_jsxDEV("span", { children: "Projected Shade Area" }, void 0, false), /*#__PURE__*/_jsxDEV("strong", { children: "15.5 Ha" }, void 0, false) ] }, void 0, true),
-                            /*#__PURE__*/_jsxDEV("li", { className: "flex justify-between", children: [ /*#__PURE__*/_jsxDEV("span", { children: "Annual CO\u2082 Sequestration (per m\u00B2)" }, void 0, false), /*#__PURE__*/_jsxDEV("strong", { children: "1.2kg" }, void 0, false) ] }, void 0, true)
-                          ]
-                        }, void 0, true)
-                      ]
-                    }, void 0, true)
-                  ]
-                }, void 0, true),
-                /*#__PURE__*/_jsxDEV("div", {
-                  children: /*#__PURE__*/_jsxDEV("img", { src: "./assets/canopy_projection_aerial.jpg", alt: "Canopy Projection Aerial View", className: "w-full rounded-3xl shadow-2xl border border-white/10" }, void 0, false)
-                }, void 0, false)
+                /*#__PURE__*/_jsxDEV("div", { className: "w-14 h-14 rounded-2xl bg-earth-500/10 flex items-center justify-center mb-6 border border-earth-500/20 group-hover:scale-110 transition-transform", children: /*#__PURE__*/_jsxDEV(LucideIcon, { name: "map", size: 28, className: "text-earth-400" }, void 0, false) }, void 0, false),
+                /*#__PURE__*/_jsxDEV("h3", { className: "text-xl font-bold text-cream-50 mb-3", children: "Canopy Projection" }, void 0, false),
+                /*#__PURE__*/_jsxDEV("p", { className: "text-cream-100/70 text-sm leading-relaxed", children: "Model the future growth and spread of the mature tree canopy across planting sites for strategic environmental planning, optimizing tree density and shade mapping." }, void 0, false)
+              ]
+            }, void 0, true),
+            /*#__PURE__*/_jsxDEV("div", {
+              className: "glass-card p-6 md:p-8 rounded-3xl border border-white/10 hover:border-earth-500/40 hover:bg-forest-900/40 transition-all duration-300 group",
+              children: [
+                /*#__PURE__*/_jsxDEV("div", { className: "w-14 h-14 rounded-2xl bg-earth-500/10 flex items-center justify-center mb-6 border border-earth-500/20 group-hover:scale-110 transition-transform", children: /*#__PURE__*/_jsxDEV(LucideIcon, { name: "layers", size: 28, className: "text-earth-400" }, void 0, false) }, void 0, false),
+                /*#__PURE__*/_jsxDEV("h3", { className: "text-xl font-bold text-cream-50 mb-3", children: "Root Analysis" }, void 0, false),
+                /*#__PURE__*/_jsxDEV("p", { className: "text-cream-100/70 text-sm leading-relaxed", children: "Study the complex below-ground interactions of diverse tree species to anchor the soil, prevent erosion, and enhance water infiltration." }, void 0, false)
               ]
             }, void 0, true)
           ]
-        }, void 0, true),
-
-        /*#__PURE__*/_jsxDEV("section", {
-          id: "root-analysis",
-          className: "mt-24",
-          children: [
-            /*#__PURE__*/_jsxDEV("h2", { className: "text-3xl md:text-4xl font-serif font-bold text-cream-50 mb-6 tracking-tight", children: "Root Analysis" }, void 0, false),
-            /*#__PURE__*/_jsxDEV("div", {
-              className: "grid grid-cols-1 md:grid-cols-2 gap-12 items-center",
-              children: [
-                /*#__PURE__*/_jsxDEV("div", {
-                  className: "order-2 md:order-1",
-                  children: /*#__PURE__*/_jsxDEV("img", { src: "./assets/root_analysis_crosssection.jpg", alt: "Root Analysis Cross Section", className: "w-full rounded-3xl shadow-2xl border border-white/10" }, void 0, false)
-                }, void 0, false),
-                /*#__PURE__*/_jsxDEV("div", {
-                  className: "order-1 md:order-2",
-                  children: [
-                    /*#__PURE__*/_jsxDEV("p", { className: "text-cream-100/80 text-lg mb-4 leading-relaxed", children: "Subterranean Root Analysis is a core function that studies the complex below-ground interactions of diverse tree species and their profound impact on overall soil health." }, void 0, false),
-                    /*#__PURE__*/_jsxDEV("p", { className: "text-cream-100/80 text-lg mb-4 leading-relaxed", children: "Different root structures\u2014ranging from deep taproots to extensive fibrous systems\u2014work together to anchor the soil, prevent erosion, and enhance water infiltration." }, void 0, false),
-                    /*#__PURE__*/_jsxDEV("p", { className: "text-cream-100/80 text-lg mb-8 leading-relaxed", children: "This process facilitates vital nutrient cycling and actively manages the subterranean water table, playing a critical role in determining the long-term viability and stability of the ecosystem." }, void 0, false),
-                    /*#__PURE__*/_jsxDEV("div", {
-                      className: "glass-card p-6 rounded-2xl border border-white/10 bg-forest-900/40",
-                      children: [
-                        /*#__PURE__*/_jsxDEV("h3", { className: "text-xl font-bold text-cream-50 mb-4", children: "Key Performance Indicators" }, void 0, false),
-                        /*#__PURE__*/_jsxDEV("ul", {
-                          className: "space-y-3 text-cream-100/90",
-                          children: [
-                            /*#__PURE__*/_jsxDEV("li", { className: "flex justify-between border-b border-white/10 pb-2", children: [ /*#__PURE__*/_jsxDEV("span", { children: "Subterranean Soil Binding Score" }, void 0, false), /*#__PURE__*/_jsxDEV("strong", { children: "8.5 / 10" }, void 0, false) ] }, void 0, true),
-                            /*#__PURE__*/_jsxDEV("li", { className: "flex justify-between border-b border-white/10 pb-2", children: [ /*#__PURE__*/_jsxDEV("span", { children: "Water Table Stabilization Impact" }, void 0, false), /*#__PURE__*/_jsxDEV("strong", { children: "High" }, void 0, false) ] }, void 0, true),
-                            /*#__PURE__*/_jsxDEV("li", { className: "flex justify-between", children: [ /*#__PURE__*/_jsxDEV("span", { children: "Projected Soil Erosion Reduction" }, void 0, false), /*#__PURE__*/_jsxDEV("strong", { children: "60%" }, void 0, false) ] }, void 0, true)
-                          ]
-                        }, void 0, true)
-                      ]
-                    }, void 0, true)
-                  ]
-                }, void 0, true)
-              ]
-            }, void 0, true)
-          ]
-        }, void 0, true)
-
+        }, void 0, false)
       ]
     }, void 0, true)
   }, void 0, false);
